@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap -  v1.0.0 (https://github.com/ezequielest/invite-adventure#readme)
- * Copyright 2013-2019 
+ * Copyright 2013-2021 
  * Licensed under ISC (https://github.com/BlackrockDigital/edge/blob/master/LICENSE)
  */
 
@@ -2673,34 +2673,34 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 24px;
 }
 
-#instagram {
+.instagram-container {
   background: radial-gradient(circle at -18% 200%, #fdf497 0%, #fdf497 -7%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   padding-top: 120px;
   padding-bottom: 120px;
   color: #fff;
 }
 
-#instagram a {
+.instagram-container a {
   color: #fff;
 }
 
-#instagram a:hover {
+.instagram-container a:hover {
   color: #222;
 }
 
-#instagram .hashtag {
+.instagram-container .hashtag {
   font-size: 80px;
   color: #fff;
 }
 
 @media (max-width: 768px) {
-  #instagram .hashtag {
+  .instagram-container .hashtag {
     font-size: 40px;
   }
 }
 
 @media (max-width: 320px) {
-  #instagram .hashtag {
+  .instagram-container .hashtag {
     font-size: 20px;
   }
 }
@@ -2776,8 +2776,45 @@ h1, h2, h3, h4, h5, h6 {
   background: #b01afe;
 }
 
+.confirmation h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 394px) {
+  .confirmation h1 {
+    font-size: 20px;
+  }
+}
+
+.confirmation h2 {
+  margin-bottom: 20px;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 394px) {
+  .confirmation h2 {
+    font-size: 15px;
+  }
+}
+
 .confirmation form {
   width: 100%;
+}
+
+.confirmation form h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+@media (max-width: 394px) {
+  .confirmation form h2 {
+    font-size: 15px;
+  }
 }
 
 .confirmation form h2 {

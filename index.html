@@ -82,33 +82,6 @@
 	
 			<!-- SLIDER desktop-->
 			<section id="slider" class="owl-carousel owl-theme masthead">
-				<div class="item bg-1">
-					<div class="col-lg-12 my-auto">
-					<div class="header-content mx-auto text-center">
-						<h1 class="mb-5 carousel-title">15 | Pame</h1>
-						<h3 class="mb-5 carousel-subtitle">Compartí conmigo este momento único</h3>
-						<a href="#service" class="btn btn-outline btn-xl js-scroll-trigger save-the-date">Save the date</a>
-					</div>
-					</div>
-				</div>
-				<div class="item bg-2">
-					<div class="col-lg-12 my-auto">
-					<div class="header-content mx-auto  text-center">
-						<h1 class="mb-5 carousel-title">15 | Pame</h1>
-						<h3 class="mb-5 carousel-subtitle">Compartí conmigo este momento único</h3>
-						<a href="#service" class="btn btn-outline btn-xl js-scroll-trigger save-the-date">Save the date</a>
-					</div>
-					</div>
-				</div>
-				<div class="item bg-3">
-					<div class="col-lg-12 my-auto">
-					<div class="header-content mx-auto  text-center">
-						<h1 class="mb-5 carousel-title">15 | Pame</h1>
-						<h3 class="mb-5 carousel-subtitle">Compartí conmigo este momento único</h3>
-						<a href="#service" class="btn btn-outline btn-xl js-scroll-trigger save-the-date">Save the date</a>
-					</div>
-					</div>
-				</div>
 			</section>
 			
 			<!-- Start about Area -->
@@ -117,22 +90,21 @@
 					<div class="row d-flex justify-content-center reveal-scroll">
 						<div class="menu-content pb-40 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10 fecha title">06 | 12 | 19</h1>
-								<p>Una fecha inolvidable.</p>
+								<h1 id="aboutDate" class="mb-10 fecha title"></h1>
+								<p>Una fecha inolvidable</p>
 							</div>
 						</div>
 					</div>					
 					<div class="single-info row mt-40 reveal-scroll">
 						<div class="col-lg-6 col-md-12 mt-80 text-center no-padding info-left">
 							<div class="info-thumb">
-								<img src="img/about-img.jpg" class="img-fluid" alt="">
+								<img id="aboutImg" class="img-fluid" alt="">
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-12 no-padding info-rigth">
 							<div class="info-content">
-								<h2 class="pb-30 name">Pamela Diaz</h2>
-								<p>Hay momentos en la vida que son irrepetibles...</p>
-								<p>Pero compartirlos con las personas que más quieres, estos se vuelven inolvidables...</p>
+								<h2 class="pb-30 name" id="aboutName"></h2>
+								<p id="aboutPhrase"></p>
 								</div>
 						</div>
 					</div>
@@ -143,11 +115,11 @@
 
 			<!-- Start Instagram Area -->
 
-			<section id="instagram" class="instagram pt-40 pb-40">
+			<section class="instagram-container pt-40 pb-40">
 				<div class="container">
 					<div class="text-center animate-box reveal-scroll" data-animate-effect="fadeIn">
 						<span>Seguime en instagram</span>
-						<h2 class="hashtag"><a href="https://www.instagram.com/paamediaz_/">paamediaz_</a></h2>
+						<h2 id="instagram" class="hashtag"></h2>
 						<p></p>
 					</div>
 				</div>
@@ -224,12 +196,11 @@
 							<div class="single-feature mb-30">
 								<div class="title d-flex flex-row pb-20">
 									<span class="lnr lnr-apartment"></span>
-									<h4><a href="#">Salón
-									</a></h4>
+									<h4><a href="#">Salón</a></h4>
 								</div>
 								<p>
-									<b>Villa Antonia</b><br>
-									Sierra de los Padres. Padre Queríní 205
+									<b id="placeName"></b><br>
+									<span id="placeLocation"></span>
 								</p>							
 							</div>							
 						</div>
@@ -239,10 +210,8 @@
 									<span class="lnr lnr-license"></span>
 									<h4><a href="#">Fecha y horario</a></h4>
 								</div>
-								<p>
-									Viernes 06 de Diciembre 2019<br>
-									12:00AM a 18:00PM 
-								</p>							
+								<p id="date"></p>
+								<p id="hour"></p> 							
 							</div>							
 						</div>
 						<div class="col-lg-4 col-md-6 ">
@@ -251,10 +220,7 @@
 									<span class="lnr lnr-phone"></span>
 									<h4><a href="#">Contacto</a></h4>
 								</div>
-								<p>
-									2235164744<br>
-									2235603358 
-								</p>							
+								<div id="contacts"></div>						
 							</div>							
 						</div>
 
@@ -293,47 +259,8 @@
 						</div>-->																				
 					</div>
 
-					<div class="row">
-						<div class="col-md-4">
-							<div class="single-feature mb-30">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-warning"></span>
-									<h4><a href="#">Dresscode</a></h4>
-								</div>
-								<div class="row">
-									<div class="col-md-6">
-										<span>Elegante Sport</span>
-									</div>
-									<!--<div class="col-md-6">			
-										<img class="img-fluid dresscode" src="./img/home/dresses.png" />
-									</div>-->
-								</div>		
-							</div>	
-						</div>
-						<div class="col-md-4">
-							<div class="single-feature mb-30">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-sun"></span>
-									<h4><a href="#">Ropa de baño</a></h4>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<span>Muda adicional para pileta</span>
-									</div>
-								</div>		
-							</div>	
-						</div>
-						<div class="col-md-4">
-							<div class="single-feature mb-30">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-gift"></span>
-									<h4><a href="#">Regalo</a></h4>
-								</div>
-								Tu presencia alcanza!!<br>
-								En el salon habrá un sobre por si queres regalarme algo	
-							</div>	
-						</div>
-					</div>
+					<div class="row" id="extraInfo"></div>
+
 					<div class="line-container row">
 						<div class="col-md-12">
 							<div class="line"></div>
@@ -346,7 +273,7 @@
 			<!-- Start Separation Area -->
 			<section class="separation-area">
 				<div class="map-container">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9493.34366057792!2d-57.778547303411635!3d-37.935388968191624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95852ef0a2a2e14d%3A0x69a897d0cf1d6846!2sVilla%20Antonia!5e0!3m2!1ses!2sar!4v1573516144136!5m2!1ses!2sar"  width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<iframe id="maps"  width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				</div>
 			</section>
 			<!-- Modal -->
@@ -374,30 +301,14 @@
 				<div class="container section-top-border">
 					<h3 class="title">Galería</h3>
 					<div class="row gallery-item">
-						<div class="col-md-4">
-							<a href="img/gallery/1.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/gallery/1.jpg);"></div></a>
-						</div>
-						<div class="col-md-4">
-							<a href="img/gallery/2.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/gallery/2.jpg);"></div></a>
-						</div>
-						<div class="col-md-4">
-							<a href="img/gallery/3.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/gallery/3.jpg);"></div></a>
-						</div>
-						<div class="col-md-6">
-							<a href="img/gallery/4.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/gallery/4.jpg);"></div></a>
-						</div>
-						<div class="col-md-6">
-							<a href="img/gallery/5.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/gallery/5.jpg);"></div></a>
-						</div>
-						<div class="col-md-4">
-							<a href="img/gallery/6.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/gallery/6.jpg);"></div></a>
-						</div>
-						<div class="col-md-4">
-							<a href="img/gallery/7.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/gallery/7.jpg);"></div></a>
-						</div>
-						<div class="col-md-4">
-							<a href="img/gallery/8.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/gallery/8.jpg);"></div></a>
-						</div>
+						<div class="col-md-4" id="gallery1"></div>
+						<div class="col-md-4" id="gallery2"></div>
+						<div class="col-md-4" id="gallery3"></div>
+						<div class="col-md-6" id="gallery4"></div>
+						<div class="col-md-6" id="gallery5"></div>
+						<div class="col-md-4" id="gallery6"></div>
+						<div class="col-md-4" id="gallery7"></div>
+						<div class="col-md-4" id="gallery8"></div>
 					</div>
 				</div>
 			</section>
@@ -406,14 +317,18 @@
 			<section id="confirmation" class="confirmation section-gap" class="logo-area pt-80 pb-80">
 					<div class="container">
 						<div class="row">
-							<form id="formAssistence">
+							<div class="col-12">
+								<h2 class="text-center">Confirmá tu asistencia por WhatsApp</h2>
+								<h1><i class="lnr lnr-smartphone"></i> <span id="contactNumber"></span></h1>
+							</div>
+							<!--<form id="formAssistence">
 								<h2 class="text-center">Confirmá tu asistencia</h2>
 								<input type="text" id="name" name="name" placeholder="Nombre y apellido" required>
 								<input type="number" id="personasConfirmadas" name="personasConfirmadas" min="1" max="10" placeholder="Cantidad personas" required>
 								<textarea name="message" id="message"  placeholder="Dejale un mensajito a Pame" cols="30" rows="10" required></textarea>
 								<button class="btn-voy" value="confirmar">Enviar</button>
 							</form>
-							<div class="rta"></div>
+							<div class="rta"></div>-->
 						</div>
 					</div>	
 				</section>
@@ -527,10 +442,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-5 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>Pamela</h6>
-								<p>Hay momentos en la vida que son irrepetibles.</p>
-								<p>Pero compartirlos con las personas que más quieres, estos se vuelven inolvidables.</p>
+							<div class="single-footer-widget" id=""> 
+								<h6 id="footerName"></h6>
+								<p id="footerPhrase"></p>
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</div>
@@ -562,8 +476,7 @@
 							<div class="single-footer-widget">
 								<h6>Seguime</h6>
 								<p>Te dejo mis redes</p>
-								<div class="footer-social d-flex align-items-center">
-									<a href="https://www.instagram.com/paamediaz_/"><i class="fab fa-instagram"></i></a>
+								<div class="footer-social d-flex align-items-center" id="insta2">
 								</div>
 							</div>
 						</div>							
@@ -603,27 +516,11 @@
 					timeToHide: 500,
 					spinner: 'spinner1'
 				});
-			</script>
 
-			<script>
 				setTimeout(() => {
 					$('.invite-container').css('visibility','visible');
 				},500);
-			</script>
 
-			<script>
-			    $(document).ready(function(){
-					$('.owl-carousel').owlCarousel({
-						items: 1,
-						loop: true,
-						autoplay: true,
-						autoplayTimeout: 4000,
-						pullDrag: false,
-						touchDrag: false,
-						mouseDrag: false,
-						animateOut: 'fadeOut'
-					});
-				});
 			</script>
 
 			<script>
@@ -662,6 +559,136 @@
 				$('.rta').html('Error de servidor, intentelo nuevamente más tarde');
 			});
 			});
+			</script>
+
+			<script>
+				getData();
+
+				async function getData() {
+					var response = await fetch("./js/data.json");
+					var res = await response.json();
+
+					generateSlider(res.slider);
+
+					document.getElementById('aboutDate').append(res.event.date.dateString);
+					document.getElementById('aboutImg').src = res.she.img;
+					document.getElementById('aboutName').append(res.she.name);
+					document.getElementById('aboutPhrase').append(res.she.phrase);
+
+					genereteInstagramUri(res.she);
+
+					document.getElementById('placeName').append(res.event.location.name);
+					document.getElementById('placeLocation').innerHTML = res.event.location.address  + ', ' + res.event.location.city;
+					
+					document.getElementById('date').append(res.event.date.day);
+					document.getElementById('hour').append(res.event.date.hour);
+
+					generateContacts(res.contacts);
+					generateExtraInfo(res.extraInfo);
+
+					document.getElementById('maps').src = res.event.location.maps;
+
+					generateGallery(res.gallery);
+
+					document.getElementById('contactNumber').append(res.contacts[0]);
+
+					document.getElementById('footerName').append(res.she.name);
+					document.getElementById('footerPhrase').append(res.she.phrase);
+
+				}
+
+				function generateGallery(gallery) {
+					gallery.forEach((img, index) => {
+						document.getElementById('gallery' + (index + 1)).innerHTML = 
+							`<a href="img/gallery/${img}.jpg" class="img-pop-up">
+								<div class="single-gallery-image" style="background: url(img/gallery/${img}.jpg);">
+								</div>
+							</a>`
+					});
+
+					setTimeout(() => {
+						$('.img-pop-up').magnificPopup({
+							type: 'image',
+							gallery: {
+								enabled:true
+							}
+						});
+					}, 500);
+
+					
+				}
+
+				function generateExtraInfo(infos) {
+					let htmlExtraInfo = ""
+					let divCols = 1;
+					if (infos.length < 5) {
+						divCols = 12 / infos.length;
+					}
+
+					infos.forEach(info => {
+						htmlExtraInfo += 
+						`<div class="col-md-${divCols}">
+							<div class="single-feature mb-30">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr ${info.icon}"></span>
+									<h4><a href="#">${info.title}</a></h4>
+								</div>
+								<span>${info.text}</span>
+							</div>	
+						</div>`
+					});
+
+					document.getElementById('extraInfo').innerHTML = htmlExtraInfo;
+				}
+
+				function generateContacts(contacts) {
+					let htmlContacts = ""
+					contacts.forEach(contact => {
+						htmlContacts += `<p class="contact">${contact}</p>`
+					});
+
+					document.getElementById('contacts').innerHTML = htmlContacts;
+				}
+
+				function genereteInstagramUri(she) {
+					let htmlInsta = `<a href="https://www.instagram.com/${she.instagram}">${she.instagram}</a>`;
+					let insta2 = htmlInsta + ` <i class="fab fa-instagram"></i>`;
+
+
+					document.getElementById('instagram').innerHTML =  htmlInsta;
+					document.getElementById('insta2').innerHTML =  htmlInsta;
+				}
+
+				function generateSlider(slider) {
+					let htmlSlider = "";
+					slider.forEach((slide, index) => {
+					
+						htmlSlider += 
+						`<div class="item bg-${ index + 1 }">
+							<div class="col-lg-12 my-auto">
+							<div class="header-content mx-auto text-center">
+								<h1 class="mb-5 carousel-title">${slide.sliderTitle}</h1>
+								<h3 class="mb-5 carousel-subtitle">${slide.sliderDescription}</h3>
+								<a href="#service" class="btn btn-outline btn-xl js-scroll-trigger save-the-date">Save the date</a>
+							</div>
+							</div>
+						</div>`
+					});
+
+					document.getElementById('slider').innerHTML = htmlSlider;
+
+					$('.owl-carousel').owlCarousel({
+						items: 1,
+						loop: true,
+						autoplay: true,
+						autoplayTimeout: 4000,
+						pullDrag: false,
+						touchDrag: false,
+						mouseDrag: false,
+						animateOut: 'fadeOut'
+					});
+				}
+
 			</script>
 
 
