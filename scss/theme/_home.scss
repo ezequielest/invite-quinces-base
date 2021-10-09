@@ -583,7 +583,7 @@
 
 //--------- Instagram Area ----------//
 
-#instagram {
+.instagram-container {
     background: radial-gradient(circle at -18% 200%, #fdf497 0%, #fdf497 -7%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     padding-top: 120px;
 	padding-bottom: 120px;
@@ -687,8 +687,42 @@
 .confirmation {
     background: $primary-color;
 
+	h1 {
+		margin-bottom: 20px;
+		color: #fff;
+		text-align: center;
+		display: block;
+
+		@media(max-width: 394px) {
+			font-size: 20px;
+		}
+	}
+
+
+	h2 {
+		margin-bottom: 20px;
+		color: #fff;
+		display: block;
+		text-align: center;
+
+		@media(max-width: 394px) {
+			font-size: 15px;
+		}
+	}
+
+	
+
 	form {
 		width: 100%;
+
+		h2 {
+			margin-bottom: 20px;
+			color: #fff;
+
+			@media(max-width: 394px) {
+				font-size: 15px;
+			}
+		}
 		
 		h2 {
 			margin-bottom: 20px;

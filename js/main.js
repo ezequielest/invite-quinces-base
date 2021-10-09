@@ -20,13 +20,6 @@ $(document).ready(function(){
           $('select').niceSelect();
     };
 
-    $('.img-pop-up').magnificPopup({
-        type: 'image',
-        gallery:{
-        enabled:true
-        }
-    });
-
     // $('.navbar-nav>li>a').on('click', function(){
     //     $('.navbar-collapse').collapse('hide');
     // });
