@@ -1,0 +1,83 @@
+// Styling for the masthead
+section.masthead {
+    //@include grandient_trans($black-tr, $black-tr);
+    margin-top: -48px;
+
+    .item {
+        display: flex;
+    	justify-content: center;
+    	align-items: center;
+        
+        height: 100vh;
+        //padding-top: 250px;
+        //padding-bottom: 100px;
+
+        &.bg-1 {
+            @include grandient_trans_img($black-tr, $black-tr, '../img/slider/slider1.jpg');
+            background-position: 20% 20%;
+        }
+
+        &.bg-2 {
+            @include grandient_trans_img($black-tr, $black-tr, '../img/slider/slider2.jpg');
+            background-position: center center;
+        }
+
+        &.bg-3 {
+            @include grandient_trans_img($black-tr, $black-tr, '../img/slider/slider3.jpg');
+            background-position: center center;
+        }
+
+        .header-content {
+            max-width: 500px;
+            margin-bottom: 100px;
+
+            text-align: center;
+            color: white;
+            h1 {
+                font-size: 50px;
+            }
+            a {
+                color: white;
+                border: 1px solid white;
+            }
+        }
+        .device-container {
+            max-width: 325px;
+            margin-right: auto;
+            margin-left: auto;
+            @include scroll;
+            .screen {
+                overflow-y: scroll;
+
+                img {
+                    border-radius: 3px;
+                    border: 0;
+                }
+                .img-fluid {
+                    max-width: 105%;
+                }
+            }
+        }
+        @media (min-width: 992px) {
+            min-height: 775px;
+        }
+           
+    }
+    @media (min-width: 992px) {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+        .header-content {
+            margin-bottom: 0;
+
+            text-align: left;
+            h1 {
+                font-size: 50px;
+            }
+        }
+        .device-container {
+            max-width: 325px;
+        }
+    }
+}
