@@ -1,0 +1,54 @@
+{
+    "she": {
+        "name": "Camila",
+        "nick": "Cami",
+        "instagram": "deazacamila",
+        "img": "../img/she.jpg",
+        "phrase": "Te invito a festejar mi cumpleaños de 15. Me encantaría que pudieras venir a éste momento tan importante para mi."
+    },
+    "slider": [{
+        "sliderTitle": "15 | Cami",
+        "sliderDescription": "Compartí conmigo este momento único"
+    },
+    {
+        "sliderTitle": "15 | Cami",
+        "sliderDescription": "Compartí conmigo este momento único"
+    },
+    {
+        "sliderTitle": "15 | Cami",
+        "sliderDescription": "Compartí conmigo este momento único"
+    }],
+    "event": {
+        "location": {
+            "name": "La Condesa de los Naranjos",
+            "address": "Ruta 88 Km 3,300",
+            "city": "Mar del Plata",
+            "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.540500335446!2d-57.63580338415003!3d-38.01117705313931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d8ae11598521%3A0xa0d5005f0bb789b!2sLA%20CONDESA%20DE%20LOS%20NARANJOS!5e0!3m2!1ses!2sar!4v1634155661813!5m2!1ses!2sar"
+        },
+        "date": {
+            "day": "Sábado 06 de Noviembre 2021",
+            "hour": "18:00PM",
+            "dateString": "06 | 05 | 2021"
+        }
+    },
+    "contacts": ["2235478045", ""],
+    "extraInfo": [{
+        "icon": "lnr-gift",
+        "title": "Regalos",
+        "text": "Tu presencia es más que suficiente. En el salón habrá un cofre con sobres por si queres regalarme algo."
+    }],
+    "gallery": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+    ],
+    "assist": {
+        "email": "",
+        "phone": "+5492235478045"
+    }
+}

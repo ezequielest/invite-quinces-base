@@ -565,7 +565,7 @@
 				getData();
 
 				async function getData() {
-					var response = await fetch("./js/data.json");
+					var response = await fetch("./data.json");
 					var res = await response.json();
 
 					generateSlider(res.slider);
